@@ -1,6 +1,4 @@
-from numpy import int64
 import pandas as pd
-from pandas.core.reshape.melt import to_numeric
 
 dataframe = pd.read_csv("GDP.csv")
 
